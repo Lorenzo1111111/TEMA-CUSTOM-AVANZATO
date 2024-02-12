@@ -1,0 +1,15 @@
+/*
+Theme Name: TEMA CUSTOM
+Description: Nuovo tema personalizzato per WordPress
+Version: 1.0
+Author: Qua inserisci il tuo nome autore
+*/
+
+/* Di seguito inseriremo il codice CSS */
+
+
+..elementor-widget-nav-menu  {
+    transition: margin-top 0.2s ease;
+}
+
+
