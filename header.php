@@ -10,8 +10,7 @@
 
     <?php wp_head(); ?>
     
-
- <script type="text/javascript">
+  <script type="text/javascript">
     jQuery(document).ready(function($) {
         // Verifica che jQuery sia caricato correttamente
         if (typeof jQuery !== 'undefined') {
@@ -37,6 +36,8 @@
         });
     });
 </script>
+
+
 
 
     

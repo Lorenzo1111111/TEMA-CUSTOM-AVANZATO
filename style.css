@@ -12,4 +12,20 @@ Author: Qua inserisci il tuo nome autore
     transition: margin-top 0.2s ease;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Impedisce lo scrolling orizzontale */
+}
 
+/* Assicurati che tutti gli elementi interni siano larghi al 100% */
+header, main, footer {
+    width: 100%;
+}
+
+/* Rimuovi i margini e i padding predefiniti dagli elementi HTML */
+html, body, header, main, footer {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
